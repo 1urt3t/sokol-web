@@ -5,11 +5,6 @@ import Page02 from "./components/02-page/page02";
 import Page03 from "./components/03-page/page03";
 import Page04 from "./components/04-page/page04";
 import Footer from "./components/05-page/footer";
-import { ScrollTrigger } from "gsap/all";
-import { ScrollSmoother } from "gsap-trial/src/all";
-import { gsap } from "gsap";
-
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
 class App extends React.Component {
   render() {

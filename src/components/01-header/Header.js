@@ -17,7 +17,7 @@ class Header extends React.Component {
                         <div className="header__link"><Link  to="page03" smooth={true} duration={500}>MY SKILLS</Link></div>
                         <div className="header__link"><Link  to="page04" smooth={true} duration={500}>CONTACT ME</Link></div>
                     </div>
-                    <div className="header__github"><a href=""><img src={Image}/></a></div>
+                    <div className="header__github"><a href="https://github.com/1urt3t"><img src={Image}/></a></div>
                 </div>
             </div>
         )

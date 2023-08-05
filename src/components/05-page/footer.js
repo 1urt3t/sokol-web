@@ -11,7 +11,7 @@ class Footer extends React.Component {
                     <div className="header__logo">Sokol-<span>Web</span></div>
                     <div className="footer__right">
                         <div className="Upward"><Link to="header" smooth={true} duration={500}>Upward<img src={Image02}/></Link></div>
-                        <div className="footer_git"><a href=""><img src={Image}/></a></div>
+                        <div className="footer_git"><a href="https://github.com/1urt3t"><img src={Image}/></a></div>
                     </div>
                 </div>
             </div>
