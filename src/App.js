@@ -17,7 +17,6 @@ class App extends React.Component {
         <Element name='page03'><Page03 /></Element>
         <Element name='page04'><Page04 /></Element>
         <Footer />
-        {/* dkajskdaskdj */}
       </div>
       </div>
       </div>
