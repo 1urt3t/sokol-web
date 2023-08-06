@@ -12,7 +12,7 @@ class Page02 extends React.Component {
                            <p className="page02__text__animation__p">Hello 👋 I'm</p>
                            <section className="animation">
                                <div className="first">
-                               <div>Alexsandr Sokolov</div>
+                               <div>Alexandr Sokolov</div>
                                </div>
                                <div className="second">
                                <div>Web Developer</div>

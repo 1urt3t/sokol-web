@@ -23,6 +23,7 @@ body {
   padding: 30px 0px;
   background-color: #1a1a1a;
   overflow: hidden;
+  display: block;
 }
 #header__container {
   display: flex;
@@ -37,7 +38,7 @@ body {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  width: 180px;
+  width: 130px;
 }
 .header__logo span {
   color: #3498db;
@@ -48,7 +49,7 @@ body {
   line-height: normal;
 }
 .header__links {
-  width: 400px;
+  width: 420px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -84,6 +85,58 @@ body {
 .header__github img {
   float: right;
 }
+/* ------------------------------------------- */
+#header-mob {
+  padding: 20px 0px;
+  background-color: #1a1a1a;
+  overflow: hidden;
+  display: none;
+  align-items: center;
+}
+
+#headerMob__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.burgerMenu {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.burger-menu-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.burger-menu-line {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+.menu-items {
+  position: absolute;
+  z-index: 999;
+  background-color: #1a1a1a;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+  border-radius: 10%;
+}
+.header__github {
+  width: 80px;
+  align-items: center;
+}
+
+
 /* --------------------------------- */
 /* 02-page */
 /* --------------------------------- */
@@ -248,7 +301,7 @@ body {
 .skill__text {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
   align-items: center;
   text-align: center;
 }
@@ -430,8 +483,8 @@ body {
   /* 03-page */
   /* --------------------------------- */
   .page03__skill {
-      width: 250px;
-      height: 450px;
+      width: 260px;
+      height: 465px;
     }
   .skill__circle {
       top: 41px;
@@ -503,7 +556,7 @@ body {
   /* --------------------------------- */
   .page03__skill {
       width: 205px;
-      height: 450px;
+      height: 420px;
   }
   .skill__img {
     padding-top: 40px;
@@ -629,6 +682,10 @@ body {
   /* --------------------------------- */
   /* 03-page */
   /* --------------------------------- */
+  .page03__skill {
+    width: 280px;
+    height: 380px;
+}
   .skills__row1 , .skills__row2{
       flex-direction: column;
       justify-content: space-between;
@@ -686,7 +743,7 @@ body {
       position: relative;
       width: 45px;
       top: -130px;
-      left: calc(var(--index)*19);
+      left: calc(var(--index)*21.5);
   }
   /* --------------------------------- */
   /* 04-footer */
@@ -708,28 +765,22 @@ body {
   /* --------------------------------- */
   /* 01-header */
   /* --------------------------------- */
+  #header {
+    display: none;
+  }
+  #header-mob {
+    display: block;
+  }
   .header__logo {
-    width: 130px;
-    font-size: 18px;
-  }
-  .header__logo span {
-    font-size: 18px;
-  }
-  .header__links {
-      width: 250px;
-  }
-  .header__link a {
-      font-size: 10px;
-  }
-  .header__link a:hover {
-      font-size: 10px;
+    width: auto;
+    text-align: center;
+    align-items: center;
   }
   .header__github {
-      width: 70px;
-  }
-  .header__github img {
-      width: 25px;
-  }
+    display: flex;
+    justify-content: center;
+    width: 80px;
+  } 
   /* --------------------------------- */
   /* 02-page */
   /* --------------------------------- */
@@ -768,6 +819,13 @@ body {
       height: 510px;
   }
   /* --------------------------------- */
+  /* 03-page */
+  /* --------------------------------- */
+  .page03__skill {
+    width: 240px;
+    height: 390px;
+}
+  /* --------------------------------- */
   /* 04-page */
   /* --------------------------------- */
   #page04__container {
@@ -777,14 +835,14 @@ body {
     }
     .page04__img2 {
       width: 40px;
-      top: -270px;
-      left: calc(var(--index)*17);
+      top: -320px;
+      left: calc(var(--index)*13);
   }
   .page04__text {
       margin-bottom: 30px;
   }
   /* --------------------------------- */
-  /* 04-footer */
+  /* 05-footer */
   /* --------------------------------- */
   .Upward {
       padding: 8px 25px;
@@ -801,35 +859,6 @@ body {
 /* 576 */
 /* -------------------- */
 @media (max-width: 576px) {
-  /* --------------------------------- */
-  /* 01-header */
-  /* --------------------------------- */
-  .header__logo {
-    width: 100px;
-    font-size: 12px;
-  }
-  .header__logo span {
-    font-size: 12px;
-  }
-  .header__links {
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .header__link a {
-    font-size: 8px;
-  }
-  .header__link a:hover {
-      font-size: 8px;
-  }
-  .header__github {
-    width: 30px;
-  }
-  .header__github img {
-    width: 20px;
-    float: right;
-  }
   /* --------------------------------- */
   /* 02-page */
   /* --------------------------------- */
@@ -859,13 +888,6 @@ body {
   .page02__text__desk {
       font-size: 12px;
       width: 350px;
-  }
-  .page02__img img{
-      width: 350px;
-  }
-  .page02__img::after {
-      width: 400px;
-      height: 400px;
   }
    /* --------------------------------- */
   /* 03-page */
@@ -900,8 +922,8 @@ body {
     }
     .page04__img2 {
       width: 40px;
-      top: -300px;
-      left: calc(var(--index)*14);
+      top: -320px;
+      left: calc(var(--index)*12);
   }
   .page04__text {
       margin-bottom: 30px;
