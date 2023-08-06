@@ -516,7 +516,7 @@ body {
   /* --------------------------------- */
   .header__logo {
     font-size: 30px;
-    width: 180px;
+    width: 130px;
   }
   .header__logo span {
     font-size: 30px;
@@ -645,7 +645,7 @@ body {
       font-size: 14px;
   }
   .header__github {
-      width: 70px;
+      width: 130px;
   }
   .header__github img {
       width: 30px;
