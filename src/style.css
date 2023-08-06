@@ -30,6 +30,7 @@ body {
   align-items: center;
 }
 .header__logo {
+  display: flex;
   color: #eaeaea;
   font-family: Roboto;
   font-size: 36px;
@@ -215,7 +216,7 @@ body {
 .page03__skill {
   position: relative;
   width: 270px;
-  height: 406px;
+  height: 450px;
   background-color: #000000;
   border-radius: 20px;
   display: flex;
@@ -430,7 +431,7 @@ body {
   /* --------------------------------- */
   .page03__skill {
       width: 250px;
-      height: 406px;
+      height: 450px;
     }
   .skill__circle {
       top: 41px;
@@ -495,7 +496,7 @@ body {
   /* --------------------------------- */
   .page03__skill {
       width: 205px;
-      height: 380px;
+      height: 450px;
   }
   .skill__img {
     padding-top: 40px;
@@ -567,14 +568,14 @@ body {
   /* 01-header */
   /* --------------------------------- */
   .header__logo {
-      font-size: 26px;
+      font-size: 30px;
       width: 130px;
   }
   .header__logo span {
-    font-size: 26px;
+    font-size: 30px;
   }
   .header__links {
-      width: 310px;
+      width: 350px;
   }
   .header__link a {
       font-size: 14px;
@@ -625,7 +626,7 @@ body {
       flex-direction: column;
       justify-content: space-between;
       width: auto;
-      height: 850px;
+      gap: 50px;
   }
   .skill__circle {
       top: 25px;
@@ -702,19 +703,19 @@ body {
   /* --------------------------------- */
   .header__logo {
     width: 130px;
-    font-size: 20px;
+    font-size: 24px;
   }
   .header__logo span {
-    font-size: 20px;
+    font-size: 24px;
   }
   .header__links {
       width: 250px;
   }
   .header__link a {
-      font-size: 12px;
+      font-size: 10px;
   }
   .header__link a:hover {
-      font-size: 12px;
+      font-size: 10px;
   }
   .header__github {
       width: 130px;
@@ -797,17 +798,17 @@ body {
   /* 01-header */
   /* --------------------------------- */
   .header__logo {
-      width: 100px;
-      font-size: 14px;
+    width: 130px;
+    font-size: 20px;
+  }
+  .header__logo span {
+    font-size: 20px;
   }
   .header__links {
-    width: 200px;
+    width: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .header__logo span {
-    font-size: 14px;
   }
   .header__link a {
     font-size: 9px;
