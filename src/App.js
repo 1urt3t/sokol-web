@@ -14,7 +14,7 @@ class App extends React.Component {
         <div className="content">
           <div className="App">
         <Element name="header"><Header /></Element>
-        <Element name="header"><HeaderMob /></Element>
+        <Element name="headerMob"><HeaderMob /></Element>
         <Element name='page02'><Page02 /></Element>
         <Element name='page03'><Page03 /></Element>
         <Element name='page04'><Page04 /></Element>
