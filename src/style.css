@@ -121,13 +121,14 @@ body {
   background-color: white;
 }
 .menu-items {
+  width: 150px;
   position: absolute;
   z-index: 999;
   background-color: #1a1a1a;
-  padding: 10px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   margin-top: 30px;
   border-radius: 10%;
 }
@@ -781,6 +782,12 @@ body {
     justify-content: center;
     width: 80px;
   } 
+  .header__link a{
+    font-size: 20px;
+  }
+  .header__link a:hover{
+    font-size: 20px;
+  }
   /* --------------------------------- */
   /* 02-page */
   /* --------------------------------- */
@@ -824,7 +831,7 @@ body {
   .page03__skill {
     width: 240px;
     height: 390px;
-}
+  }
   /* --------------------------------- */
   /* 04-page */
   /* --------------------------------- */
@@ -844,15 +851,24 @@ body {
   /* --------------------------------- */
   /* 05-footer */
   /* --------------------------------- */
+  #footer {
+    background-color: #1a1a1a;
+    padding: 20px 0px;
+    overflow: hidden;
+  }
   .Upward {
-      padding: 8px 25px;
+      padding: 5px 20px;
+      margin-right: 30px;
     }
   .Upward a {
-      font-size: 12px;
+      font-size: 13px;
   }
   .Upward img {
     top: 2px;
     width: 12px;
+  }
+  .footer__right {
+    gap: 0px;
   }
 }
 /* -------------------- */
@@ -888,6 +904,19 @@ body {
   .page02__text__desk {
       font-size: 12px;
       width: 350px;
+  }
+  .page02__img img {
+    width: 325px;
+  }
+  .page02__img::after {
+    position: absolute;
+    content: "";
+    width: 375px;
+    height: 375px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 50%;
+    top: 0;
+    left: 0;
   }
    /* --------------------------------- */
   /* 03-page */
@@ -935,13 +964,11 @@ body {
       padding: 5px 20px;
     }
   .Upward a {
-      font-size: 12px;
+      font-size: 13px;
   }
   .Upward img {
     top: 2px;
     width: 12px;
   }
-  .footer__right {
-      gap: 65px;
-  }
+
 }
