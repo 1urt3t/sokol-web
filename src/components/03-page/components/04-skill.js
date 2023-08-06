@@ -11,8 +11,8 @@ class Skill04 extends React.Component {
                     <div className="skill__text__header">Algorithms and Data <br/>
                                 Structures:</div>
                     <div className="skill__text__desk">
-                    Solved over 50 problems 
-                    on LeetCode and  I have 6 kata on 
+                    Solved over 150 problems 
+                    on LeetCode and  I have 3 kata on 
                     CodeWars, enhancing my 
                     programming skills 
                     and successfully tackling 

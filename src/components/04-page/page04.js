@@ -9,7 +9,7 @@ class Page04 extends React.Component {
             <div id="page04">
                 <div className="container" id="page04__container">
                     <div className="page04__img"><img src={Image}/></div>
-                    <img src={Image02}/>
+                    <img className='page04__img2'src={Image02}/>
                     <div className="page04__text">
                         <div className="page04__text__header"><span>Contact</span> me</div>
                         <div className="page04__text__desk">

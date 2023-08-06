@@ -2,6 +2,9 @@
 /* --------------------------------- */
 /* MAIN */
 /* --------------------------------- */
+:root {
+  --index: calc(1vh + 1vw)
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -22,7 +25,6 @@ body {
   overflow: hidden;
 }
 #header__container {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,6 +50,11 @@ body {
   width: 412px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.header__link {
+  display: flex;
+  align-items: center;
 }
 .header__link a {
   cursor: pointer;
@@ -105,6 +112,9 @@ body {
   top: -170px;
   left: -220px;
 }
+.page02__img {
+  position: relative;
+}
 .page02__img::after {
   position: absolute;
   content: "";
@@ -112,8 +122,8 @@ body {
   height: 640px;
   background-color: rgba(255, 255, 255, 0.03);
   border-radius: 50%;
-  top: 15px;
-  left: 670px;
+  top: 0;
+  left: 0;
 }
 .page02__text__animation {
   font-weight: 600;
@@ -135,6 +145,7 @@ body {
   overflow: hidden;
   margin-left: 1rem;
 }
+
 
 .animation > div > div {
   padding: 0.1rem 0.6rem;
@@ -183,9 +194,6 @@ body {
   line-height: 28px;
   width: 505px;
 }
-.page02__img {
-  margin-right: 176px;
-}
 /* --------------------------------- */
 /* 03-page */
 /* --------------------------------- */
@@ -194,9 +202,15 @@ body {
   background-color: #1a1a1a;
   overflow: hidden;
 }
+.skills__row1 , .skills__row2{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: auto;
+}
 #page03__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .page03__skill {
   position: relative;
@@ -214,9 +228,11 @@ body {
 .skill__img {
   padding-top: 60px;
   margin-bottom: 40px;
+  height: 80px;
   z-index: 2;
 }
 .skill__circle {
+  display: none;
   position: absolute;
   background-color: #e74c3c;
   width: 96px;
@@ -225,6 +241,7 @@ body {
   z-index: 1;
   top: 40px;
   left: 86.5px;
+  right: 0;
   transition: all 0.2s linear;
 }
 .skill__text {
@@ -274,20 +291,28 @@ body {
   overflow: hidden;
   color: white;
   padding: 115px 0px 40px 0px;
+  position: relative;
 }
 #page04__container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin: 0px 180px;
   align-items: center;
 }
+.page04__img2 {
+  position: relative;
+  top: -170px;
+  left: calc(var(--index)*25);
+}
+
 .page04__img {
   position: relative;
 }
-.page04__img::before {
+.page04__img::after {
   position: absolute;
   top: -100px;
-  left: -90px;
+  left: calc(var(--index)*-5);
   content: "";
   width: 640px;
   height: 640px;
@@ -343,7 +368,7 @@ body {
 /* --------------------------------- */
 #footer {
   background-color: #1a1a1a;
-  padding: 50px 0px;
+  padding: 30px 0px;
   overflow: hidden;
 }
 #footer__container {
@@ -381,4 +406,5 @@ body {
   position: relative;
   top: 3px;
   left: 10px;
+  width: auto;
 }

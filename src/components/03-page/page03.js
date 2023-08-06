@@ -10,10 +10,16 @@ class Page03 extends React.Component {
         return (
             <div id="page03">
                 <div className="container" id="page03__container">
-                    <Skill01 />
-                    <Skill02 />
-                    <Skill03 />
-                    <Skill04 />
+                    <div className="skills__row1">
+                        <Skill01 />
+                        <Skill02 />
+                    </div>
+                    <div className="skills__row2">
+                        <Skill03 />
+                        <Skill04 />
+                    </div>
+                    
+                    
                 </div>
             </div>
         )

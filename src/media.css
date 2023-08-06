@@ -1,0 +1,508 @@
+/* -------------------- */
+/* 1200 */
+/* -------------------- */
+@media (max-width: 1400px) {
+    /* --------------------------------- */
+    /* 02-page */
+    /* --------------------------------- */
+    .container {
+        margin: 0px 50px;
+    }
+    .page02__img img{
+        width: 480px;
+    }
+    .page02__img::after {
+        width: 520px;
+        height: 520px;
+      }
+    /* --------------------------------- */
+    /* 03-page */
+    /* --------------------------------- */
+    .page03__skill {
+        width: 250px;
+        height: 406px;
+      }
+    .skill__circle {
+        top: 41px;
+        left: calc(var(--index)*3.8);
+      }
+    /* --------------------------------- */
+    /* 04-page */
+    /* --------------------------------- */
+    #page04__container {
+        margin: 0px 80px;
+    }
+    .page04__img img{
+      width: 400px;
+    }
+    .page04__img::after {
+        top: -80px;
+        left: calc(var(--index)*-2.5);
+        width: 540px;
+        height: 540px;
+    }
+}
+/* -------------------- */
+/* 992 */
+/* -------------------- */
+@media (max-width: 1200px) {
+    /* --------------------------------- */
+    /* 01-header */
+    /* --------------------------------- */
+    .header__links {
+        width: 380px;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* --------------------------------- */
+    /* 02-page */
+    /* --------------------------------- */
+    .page02__text::before {
+        width: 400px;
+        height: 400px;
+    }
+    .page02__img::after {
+        width: 460px;
+        height: 460px;
+    }
+    .container__animation {
+        font-size: 1.4rem;
+    }
+    .animation > div > div {
+      padding: 0.3rem 0.6rem;
+      height: 1.8rem;
+      margin-bottom: 3.9rem;
+    }
+    .page02__text__desk {
+        font-size: 14px;
+        width: 400px;
+    }
+    .page02__img img{
+        width: 430px;
+    }
+    /* --------------------------------- */
+    /* 03-page */
+    /* --------------------------------- */
+    .page03__skill {
+        width: 205px;
+        height: 380px;
+    }
+    .skill__img {
+      padding-top: 40px;
+      margin-bottom: 20px;
+      z-index: 2;
+    }
+    .skill__circle {
+        top: 25px;
+        left: calc(var(--index)*2.9);
+    }
+    .skill__text {
+        gap: 4px;
+      }
+    .skill__text__header {
+      font-size: 18px;
+    }
+    .skill__text__desk {
+        font-size: 12px;
+    }
+    /* --------------------------------- */
+    /* 04-page */
+    /* --------------------------------- */
+    .page04__img img{
+        width: 300px;
+    }
+    .page04__img::after {
+        top: -70px;
+        left: calc(var(--index)*-3);
+        width: 440px;
+        height: 440px;
+      }
+      .page04__text {
+        width: 360px;
+        gap: 20px;
+      }
+      .page04__text__header {
+        font-size: 35px;
+      }
+      .page04__text__header span {
+        font-size: 35px;
+      }
+      .page04__text__desk {
+        gap: 10px;
+      } 
+      .page04__text__desk div {
+        font-size: 16px;
+      }
+      .page04__text__desk a {
+        font-size: 16px;
+      }
+      .page04__img2 {
+        position: relative;
+        width: 60px;
+        top: -170px;
+        left: calc(var(--index)*20);
+      }
+}
+/* -------------------- */
+/* 992 */
+/* -------------------- */
+@media (max-width: 992px) {
+    /* --------------------------------- */
+    /* MAIN */
+    /* --------------------------------- */
+    .container {
+        margin: 0px 30px;
+    }
+    /* --------------------------------- */
+    /* 01-header */
+    /* --------------------------------- */
+    .header__logo {
+        font-size: 26px;
+        width: 130px;
+    }
+    .header__logo span {
+      font-size: 26px;
+    }
+    .header__links {
+        width: 310px;
+    }
+    .header__link a {
+        font-size: 14px;
+    }
+    .header__link a:hover {
+        font-size: 14px;
+    }
+    .header__github {
+        width: 130px;
+    }
+    .header__github img {
+        width: 30px;
+    }
+    /* --------------------------------- */
+    /* 02-page */
+    /* --------------------------------- */
+    .page02__text {
+        gap: 30px;
+    }
+    .page02__text::before {
+        width: 350px;
+        height: 350px;
+    }
+    .container__animation {
+        font-size: 1.2rem;
+    }
+    .animation {
+        height: 31px;
+    }
+    .animation > div > div {
+        padding: 0.2rem 0.6rem;
+      }
+    .page02__text__desk {
+        font-size: 12px;
+        width: 350px;
+    }
+    .page02__img img{
+        width: 330px;
+    }
+    .page02__img::after {
+        width: 360px;
+        height: 360px;
+      }
+    /* --------------------------------- */
+    /* 03-page */
+    /* --------------------------------- */
+    .skills__row1 , .skills__row2{
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        height: 850px;
+    }
+    .skill__circle {
+        top: 25px;
+        left: calc(var(--index)*3);
+    }
+    .skill__text__header {
+        font-size: 16px;
+      }
+      .skill__text__desk {
+          font-size: 12px;
+      }
+    /* --------------------------------- */
+    /* 04-page */
+    /* --------------------------------- */
+    #page04 {
+        padding: 80px 0px 40px 0px;
+      }
+    #page04__container {
+        margin: 0px 30px;
+      }
+    .page04__img img{
+        width: 250px;
+    }
+    .page04__img::after {
+        top: -30px;
+        left: calc(var(--index)*-3.7);
+        width: 370px;
+        height: 370px;
+    }
+    .page04__text {
+        width: 310px;
+        gap: 20px;
+    }
+    .page04__text__header span {
+        font-size: 25px;
+    }
+    .page04__text__header {
+      font-size: 25px;
+    }
+    .page04__text__desk {
+        gap: 5px;
+    }
+    .page04__text__desk div {
+        font-size: 14px;
+    }
+    .page04__text__desk a {
+        font-size: 14px;
+    }
+    .page04__img2 {
+        position: relative;
+        width: 45px;
+        top: -130px;
+        left: calc(var(--index)*19);
+    }
+    /* --------------------------------- */
+    /* 04-footer */
+    /* --------------------------------- */
+    .Upward {
+        padding: 10px 30px;
+      }
+    .Upward a {
+        font-size: 14px;
+    }
+    .Upward img {
+      width: 15px;
+    }
+}
+/* -------------------- */
+/* 768 */
+/* -------------------- */
+@media (max-width: 768px) {
+    /* --------------------------------- */
+    /* 01-header */
+    /* --------------------------------- */
+    .header__logo {
+      width: 130px;
+      font-size: 20px;
+    }
+    .header__logo span {
+      font-size: 20px;
+    }
+    .header__links {
+        width: 250px;
+    }
+    .header__link a {
+        font-size: 12px;
+    }
+    .header__link a:hover {
+        font-size: 12px;
+    }
+    .header__github {
+        width: 130px;
+    }
+    .header__github img {
+        width: 25px;
+    }
+    /* --------------------------------- */
+    /* 02-page */
+    /* --------------------------------- */
+    #page02__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .page02__text {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 50px;
+    }
+    .page02__text::before {
+        width: 378px;
+        height: 378px;
+    }
+    .container__animation {
+        font-size: 1.4rem;
+    }
+    .animation {
+        height: 31px;
+    }
+    .animation > div > div {
+        padding: 0.2rem 0.6rem;
+    }
+    .page02__text__desk {
+        font-size: 14px;
+        width: 400px;
+    }
+    .page02__img img{
+        width: 450px;
+    }
+    .page02__img::after {
+        width: 510px;
+        height: 510px;
+    }
+    /* --------------------------------- */
+    /* 04-page */
+    /* --------------------------------- */
+    #page04__container {
+        flex-direction: column-reverse;
+        margin: 0px 30px;
+        align-items: center;
+      }
+      .page04__img2 {
+        width: 40px;
+        top: -270px;
+        left: calc(var(--index)*17);
+    }
+    .page04__text {
+        margin-bottom: 30px;
+    }
+    /* --------------------------------- */
+    /* 04-footer */
+    /* --------------------------------- */
+    .Upward {
+        padding: 8px 25px;
+      }
+    .Upward a {
+        font-size: 12px;
+    }
+    .Upward img {
+      top: 2px;
+      width: 12px;
+    }
+}
+/* -------------------- */
+/* 576 */
+/* -------------------- */
+@media (max-width: 576px) {
+    /* --------------------------------- */
+    /* 01-header */
+    /* --------------------------------- */
+    .header__logo {
+        width: 100px;
+        font-size: 14px;
+    }
+    .header__links {
+      width: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .header__logo span {
+      font-size: 14px;
+    }
+    .header__link a {
+      font-size: 9px;
+    }
+    .header__link a:hover {
+        font-size: 9px;
+    }
+    .header__github {
+      width: 80px;
+    }
+    .header__github img {
+      width: 20px;
+      float: right;
+    }
+    /* --------------------------------- */
+    /* 02-page */
+    /* --------------------------------- */
+    #page02__container {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .page02__text {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 50px;
+    }
+    .page02__text::before {
+        width: 378px;
+        height: 378px;
+    }
+    .container__animation {
+        font-size: 1rem;
+    }
+    .animation {
+        height: 25px;
+    }
+    .animation > div > div {
+        padding: 0.1rem 0.6rem;
+    }
+    .page02__text__desk {
+        font-size: 12px;
+        width: 350px;
+    }
+    .page02__img img{
+        width: 350px;
+    }
+    .page02__img::after {
+        width: 400px;
+        height: 400px;
+    }
+     /* --------------------------------- */
+    /* 03-page */
+    /* --------------------------------- */
+    #page03__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 40px;
+      }
+    .skills__row1 , .skills__row2{
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 40px;
+      height: auto;
+      width: auto;
+    }
+    .skill__text__header {
+      font-size: 16px;
+    }
+    .skill__text__desk {
+      font-size: 12px;
+    }
+    /* --------------------------------- */
+    /* 04-page */
+    /* --------------------------------- */
+    #page04__container {
+        flex-direction: column-reverse;
+        margin: 0px 30px;
+        align-items: center;
+      }
+      .page04__img2 {
+        width: 40px;
+        top: -300px;
+        left: calc(var(--index)*14);
+    }
+    .page04__text {
+        margin-bottom: 30px;
+    }
+    /* --------------------------------- */
+    /* 04-footer */
+    /* --------------------------------- */
+    .Upward {
+        padding: 5px 20px;
+      }
+    .Upward a {
+        font-size: 12px;
+    }
+    .Upward img {
+      top: 2px;
+      width: 12px;
+    }
+    .footer__right {
+        gap: 65px;
+    }
+}
+
