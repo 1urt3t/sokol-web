@@ -15,7 +15,7 @@ class Page04 extends React.Component {
                         <div className="page04__text__desk">
                         <div>If you have any exciting projects or collaboration 
                         opportunities, feel free to reach out to me via email:</div>
-                        <a href="mailto:alexandrrsokolovv@gmail.com">alexandrrsokolovv@gmail.com</a>
+                        <a href="mailto:alexander.sokolweb@gmail.com">alexander.sokolweb@gmail.com</a>
                         <div>I look forward to receiving your messages 
                         and the possibility of working together!</div>
                         </div>
