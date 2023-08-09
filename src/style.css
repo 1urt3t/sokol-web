@@ -268,6 +268,7 @@ body {
   justify-content: space-around;
 }
 .page03__skill {
+  cursor: pointer;
   position: relative;
   width: 270px;
   height: 450px;
@@ -328,11 +329,9 @@ body {
 }
 .page03__skill:hover .skill__circle {
   background-color: #3498db;
-  cursor: pointer;
 }
 .page03__skill:hover .skill__text__header {
   color: #3498db;
-  cursor: pointer;
 }
 .page03__skill:hover {
   transform: scale(1.05);
